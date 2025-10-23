@@ -65,9 +65,9 @@ const navbar = document.querySelector('.navbar');
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(15, 23, 42, 0.98)';
+        navbar.style.background = 'rgba(75, 0, 130, 0.15)';
     } else {
-        navbar.style.background = 'rgba(15, 23, 42, 0.95)';
+        navbar.style.background = 'rgba(75, 0, 130, 0.1)';
     }
 });
 
@@ -108,14 +108,7 @@ window.addEventListener('load', () => {
 // Enhanced Animation Effects
 // ============================================
 
-// Add parallax effect to hero section
-const hero = document.querySelector('.hero');
-window.addEventListener('scroll', () => {
-    if (hero) {
-        const scrollPosition = window.scrollY;
-        hero.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-    }
-});
+// Removed parallax effect for better mobile performance
 
 // ============================================
 // Intersection Observer for Additional Effects
