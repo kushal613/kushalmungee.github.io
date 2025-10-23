@@ -324,7 +324,7 @@ section {
    ============================================ */
 
 .academics {
-    background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 1) 100%);
+    background: var(--bg);
     padding: 60px 0;
 }
 
@@ -465,7 +465,7 @@ section {
    ============================================ */
 
 .experience {
-    background: linear-gradient(180deg, rgba(15, 23, 42, 1) 0%, rgba(30, 41, 59, 0.5) 100%);
+    background: var(--bg);
     padding: 60px 0;
 }
 
@@ -626,7 +626,7 @@ section {
    ============================================ */
 
 .interests {
-    background: linear-gradient(180deg, rgba(30, 41, 59, 0.5) 0%, rgba(15, 23, 42, 1) 100%);
+    background: var(--bg);
     padding: 60px 0;
 }
 
