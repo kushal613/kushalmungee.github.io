@@ -183,6 +183,8 @@ a:hover {
 
 .hero-text {
     text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .hero-description {
@@ -303,7 +305,7 @@ section {
 
 .academics-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
 }
 
 .education-item {
@@ -446,7 +448,7 @@ section {
     display: grid;
     gap: 2rem;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
 }
 
 .experience-item {
@@ -619,7 +621,7 @@ section {
 }
 
 .interests-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
