@@ -787,9 +787,31 @@ section {
 
     .hamburger {
         display: flex;
+        flex-direction: column;
+        cursor: pointer;
     }
 
-    .hamburger.active ~ .nav-menu {
+    .hamburger .bar {
+        width: 25px;
+        height: 3px;
+        background-color: var(--text);
+        margin: 3px 0;
+        transition: 0.3s;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu.active {
         display: flex;
         position: absolute;
         flex-direction: column;
@@ -807,7 +829,7 @@ section {
     }
 
     .hero-text {
-        text-align: center;
+        text-align: left;
     }
     
     .profile-image-inline {
