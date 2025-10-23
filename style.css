@@ -37,6 +37,16 @@ body {
     font-size: 16px;
 }
 
+a {
+    color: inherit;
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--primary);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
