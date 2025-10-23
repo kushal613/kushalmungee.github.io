@@ -8,8 +8,10 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 // Toggle mobile menu
 hamburger.addEventListener('click', () => {
+    console.log('Hamburger clicked!');
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
+    console.log('Classes toggled');
 });
 
 // Close mobile menu when a link is clicked
