@@ -263,6 +263,9 @@ section {
     margin-bottom: 0.5rem;
     color: var(--text);
     text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-subtitle {
